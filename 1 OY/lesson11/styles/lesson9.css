@@ -1,0 +1,99 @@
+*{
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: sans-serif;
+}
+.car{
+
+width: 300px;
+
+height: 200px;
+
+box-shadow: 0px 0px 8px black;
+
+margin: 150px auto;
+
+display: flex;
+
+justify-content: center;
+
+align-items: center;
+cursor: pointer;
+display: flex;
+align-items: center;
+box-shadow: 0px 0px 20px 5px silver;
+}
+
+input[type="checkbox"]{
+        appearance: none;
+        width: 70px;
+        height: 27px;
+        background-color: red;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+        cursor: pointer; 
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+        -o-transition: all 0.2s ease;
+}
+input[type="checkbox"]:after{
+    content: "";
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    position: absolute;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+input[type="checkbox"]:checked:after{
+    content: "";
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: #fff;
+    display: inline-block;
+    position: relative;
+    left: 43px;
+    
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+input[type="checkbox"]:checked{
+    content: "";
+ 
+
+    background-color: green;
+   display: inline-block;
+ position: relative;
+  
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}

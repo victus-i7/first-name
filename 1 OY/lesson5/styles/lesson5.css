@@ -1,0 +1,23 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+
+
+.title{
+
+font-family: 'for-text' , sans-serif
+
+
+}
+.text{
+
+font-family: 'for-text', sans-serif;
+}
+@font-face {
+    font-family: 'for-text';
+    src: url("../fonts/game-ont/game-font.ttf");
+}
+
+

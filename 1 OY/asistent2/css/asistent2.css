@@ -1,0 +1,139 @@
+.image{
+display: flex;
+font-family: sans-serif;
+justify-content: center;
+font-weight: 700;
+}
+.images{
+width: 300px;
+
+}
+.text{
+
+
+
+
+
+
+}
+.form{
+margin-top: 150px;
+
+
+
+
+}
+.input1{
+display: block;
+width: 150px;
+margin-right: 50px;
+height: 25px;
+}
+.input2{
+display: block;
+width: 150px;
+height: 25px;
+
+
+
+}
+.input3{
+margin-right: 30px;
+display: flex;
+width: 357px;
+height: 25px;
+
+}
+.input4{
+  display: block;
+  width: 150px;
+  height: 25px;
+    margin-right: 50px;
+    
+}
+.input5{
+display: block;
+
+width: 150px;
+height: 25px;
+}
+.list{
+color: cornflowerblue;
+list-style: none;
+text-align: center;
+font-weight: 200;
+margin-left: -150px;
+margin-top: 20px;
+}
+.item{
+
+
+
+}
+.car1{
+
+margin-left: -70px;
+
+
+}
+.car2{
+
+
+}
+.car3{
+display: block;
+margin-left: -70px;
+}
+.car4{
+
+
+
+}
+
+.flex{
+display: flex;
+margin-bottom: 25px;
+
+
+}
+.extra{
+display: flex;
+margin-left: -70px;
+margin-top: 25px;
+}
+.imagee{
+    padding-right:  -100px;
+    padding: 10px;
+     border-style: solid;
+     border-radius: 50px;
+     -webkit-border-radius: 50px;
+     -moz-border-radius: 50px;
+     -ms-border-radius: 50px;
+     -o-border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
